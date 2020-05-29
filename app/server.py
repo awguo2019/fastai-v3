@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1As5TOsCEcgs8AB6jgK255WUrWILuO9sH'
-export_file_name = 'brownreclusemodel.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1QRmUB_xAPvALnFD9d30ywAV3Xfin8U4x'
+export_file_name = 'updatedBRM.pkl'
 
 classes = ['brownrecluse', 'notbrownrecluse']
 path = Path(__file__).parent
